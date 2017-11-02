@@ -1,0 +1,9 @@
+.btn-index {
+  margin-left: 14px;
+  padding: 2px 4px 0px 4px;
+  box-shadow: 1px 1px 1px #666;
+}
+.btn-delImg {
+  border: 1px solid #C4C4C4;
+  border-radius: 5px;
+}

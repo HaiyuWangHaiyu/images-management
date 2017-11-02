@@ -1,0 +1,17 @@
+.header-mes {
+  color: #fff;
+  line-height: 40px;
+  display: inline-block;
+}
+.header-logout-btn {
+  display: inline-block
+}
+.header-banner {
+  font-size: 1em;
+  position: absolute;
+  right: 20px;
+  top: 6px;
+}
+.navbar {
+  border-radius: 0;
+}

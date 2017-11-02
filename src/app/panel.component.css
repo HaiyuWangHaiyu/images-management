@@ -1,0 +1,11 @@
+.btn-index {
+  margin-left: 14px;
+  padding: 2px 4px 0px 4px;
+  box-shadow: 1px 1px 1px #666;
+}
+.modal-title {
+  font-weight: bold;
+}
+.modal-textarea {
+  height: 120px;
+}

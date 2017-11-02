@@ -1,0 +1,32 @@
+<div class="container">
+	<table class="table table-striped">
+		<thead>
+			<tr>
+			  <th name="fileName" class="table-head-tit">File Name</th>
+			  <th name="description" class="table-head-tit">Description</th>
+			  <th name="preview" class="table-head-tit">Preview</th>
+			  <th>
+			  	Command
+			  	<app-add-modal-component></app-add-modal-component>
+			  </th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr *ngFor="let item of imageList; let i = index">
+				<td>
+					<p class="tit-img">{{item.filename}}</p>
+				</td>
+				<td>
+					<p>{{item.description}}</p>
+				</td>
+				<td>
+					<img src={{item.value}} class="index-content-img">
+				</td>
+				<td>
+					<app-update-modal-component [item]="item"></app-update-modal-component>
+					<app-delete-btn [item]="item" (childEvent)="deleteImageByIndex(i)"></app-delete-btn>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
